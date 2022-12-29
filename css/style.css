@@ -39,6 +39,10 @@
   color: #ff0000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--clr-light);
   color: var(--clr-dark);
@@ -124,7 +128,6 @@ h3 {
 }
 
 /* header */
-
 header {
   display: flex;
   justify-content: space-between;
@@ -302,12 +305,13 @@ header {
 .services {
   margin-bottom: 4em;
 }
+.services_1 {
+  margin-bottom: 4em;
+}
 
 .service {
   max-width: 500px;
   margin: 0 auto;
-  /* TODO remind me  */
-  /* color: rgb(20, 248, 88); */
 }
 @media (min-width: 800px) {
   .services {
@@ -329,38 +333,6 @@ header {
 .about-me__img {
   box-shadow: var(--bs);
 }
-
-/* @media (min-width: 600px) {
-  .about-me {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    grid-template-areas:
-      "title img"
-      "subtitle img"
-      "text img";
-    grid-column-gap: 2em;
-  }
-
-  .section__title--about {
-    grid-area: title;
-  }
-
-  .section__subtitle--about {
-    grid-column: 1 / -1;
-    grid-row: 2;
-    position: relative;
-    left: -1em;
-    width: calc(100% + 2em);
-    padding-left: 1em;
-    padding-right: calc(200px + 4em);
-  }
-
-  .about-me__img {
-    grid-area: img;
-    position: static;
-    z-index: 2;
-  }
-} */
 
 /* My Work */
 
