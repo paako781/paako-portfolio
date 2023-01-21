@@ -71,7 +71,7 @@ strong {
 }
 
 .btn {
-  display: inline-block;
+  display: inline-flex;
   padding: 0.5em 1.5em;
   background: var(--clr-accent);
   text-decoration: none;
